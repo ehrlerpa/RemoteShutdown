@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemoteShutdown</string>
+    
+    <string name="menu_settings">Einstellungen</string>
+    <string name="button_shutdown">Herunterfahren</string>
+	<string name="button_reboot">Neustarten</string>
+	
+	<string name="settings_category_common">Allgemein</string>
+	<string name="settings_category_about">Über</string>
+	<string name="settings_category_ownCommands">Eigene Befehle</string>
+	
+	<string name="settings_URL_field">IP-Adresse</string>
+	<string name="settings_URL_summaryfield">Geben Sie hier die Domain oder IP-Adresse ein</string>
+	<string name="settings_username">Benutzername</string>
+	<string name="settings_username_summary">Geben Sie hier ihren Benutzernamen ein</string>
+	<string name="settings_password">Passwort</string>
+	<string name="settings_password_summary">Geben Sie hier ihr Passwort ein</string>
+	<string name="settings_port">Port</string>
+	<string name="settings_port_summary">Geben Sie hier den SSH Port ihres Servers ein (Standard: 22)</string>
+	<string name="settings_suOnOff">Root</string>
+	<string name="settings_suOnOff_summary">Soll der Befehl als Root User gesendet werden(sudo)?</string>
+	<string name="settings_command_shutdown_summary">Geben Sie hier Ihren eigenen shutdown Befehl ein</string>
+	<string name="settings_command_reboot_summary">Geben Sie hier Ihren eigenen restart Befehl ein</string>
+	
+	<string name="settings_btc_donation">Bitcoin Spende</string>
+	
+	<string name="prg_toast_sent">Befehl wurde gesendet!</string>
+	
+	<string name="prg_errorPopup_title_error">Fehler</string>
+	<string name="prg_errorPopup_message_problemMaybeInternetConnection">Es ist ein Fehler aufgetreten. Überprüfen Sie Ihre Internet Verbindung und die Server Zugangsdaten!</string>
+	<string name="prg_errorPopup_message_checkLoginDetails">Es konnte keine Verbindung zum Server hergestellt werden. Bitte prüfen Sie Ihre Login Details!</string>
+	<string name="prg_errorPopup_button_close">Schließen</string>
+    
+</resources>

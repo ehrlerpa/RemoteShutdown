@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemoteShutdown</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="button_shutdown">Shutdown</string>
+	<string name="button_reboot">Reboot</string>
+	
+	<string name="settings_category_common">General</string>
+	<string name="settings_category_about">About</string>
+	<string name="settings_category_ownCommands">Own commands</string>
+	
+	<string name="settings_URL_field">IP-Address</string>
+	<string name="settings_URL_summaryfield">Add your servers IP-Address or the domain</string>
+	<string name="settings_username">Username</string>
+	<string name="settings_username_summary">Add your username</string>
+	<string name="settings_password">Password</string>
+	<string name="settings_password_summary">Add your password</string>
+	<string name="settings_port">Port</string>
+	<string name="settings_port_summary">Add your Port (Default: 22)</string>
+	<string name="settings_suOnOff">Root</string>
+	<string name="settings_suOnOff_summary">Send command as root user(sudo)?</string>
+	<string name="settings_command_shutdown_summary">Add your own shutdown command</string>
+	<string name="settings_command_reboot_summary">Add your own restart command</string>
+	
+	<string name="settings_btc_donation">Bitcoin Donation</string>
+	
+	<string name="prg_toast_sent">Command has sent!</string>
+	
+	<string name="prg_errorPopup_title_error">Error</string>
+	<string name="prg_errorPopup_message_problemMaybeInternetConnection">There is a problem. Check your internet connection and your login details!</string>
+	<string name="prg_errorPopup_message_checkLoginDetails">Can not connect to server. Check your login details!</string>
+	<string name="prg_errorPopup_button_close">Close</string>
+    
+</resources>

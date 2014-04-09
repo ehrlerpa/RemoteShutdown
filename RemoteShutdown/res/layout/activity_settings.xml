@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/settings_category_common"
+        android:key="pref_key_storage_settings">
+    
+    <EditTextPreference
+        android:key="pref_textbox_url"
+        android:title="@string/settings_URL_field"
+        android:summary="@string/settings_URL_summaryfield"/>
+    
+    <EditTextPreference
+        android:key="pref_textbox_username"
+        android:title="@string/settings_username"
+        android:summary="@string/settings_username_summary"/>
+    
+    <EditTextPreference
+        android:key="pref_textbox_password"
+        android:title="@string/settings_password"
+        android:summary="@string/settings_password_summary"
+        android:inputType="textPassword"/>
+    
+    <EditTextPreference
+        android:key="pref_textbox_port"
+        android:title="@string/settings_port"
+        android:summary="@string/settings_port_summary"
+        android:defaultValue="22"
+        android:inputType="phone"/>
+
+	 </PreferenceCategory>
+	 
+     <PreferenceCategory 
+        android:title="@string/settings_category_ownCommands">
+    
+     <EditTextPreference
+        android:key="pref_textbox_command_shutdown"
+        android:title="@string/button_shutdown"
+        android:defaultValue="shutdown -h now"
+        android:summary="@string/settings_command_shutdown_summary"/>
+    
+     <EditTextPreference
+        android:key="pref_textbox_command_reboot"
+        android:title="@string/button_reboot"
+        android:defaultValue="shutdown -r now"
+        android:summary="@string/settings_command_reboot_summary"/>
+     
+     <CheckBoxPreference
+        android:key="pref_checkbox_suOnOff"
+        android:title="@string/settings_suOnOff"
+        android:defaultValue="true"
+        android:summary="@string/settings_suOnOff_summary"/>
+    
+     </PreferenceCategory>
+	 
+    <PreferenceCategory 
+        android:title="@string/settings_category_about">
+    
+        <EditTextPreference
+    	android:title="RemoteShutdown 0.9.6"
+    	android:summary="2014 Patrick Ehrler"
+    	android:enabled="false" 
+    	android:selectable="false"
+    	android:persistent="false"
+    	android:shouldDisableView="false"/>
+        
+        <EditTextPreference
+    	android:title="@string/settings_btc_donation"
+    	android:summary="1N6QcncbgKR4Y9sRDYLydJZmY11a8KMT5V "
+    	android:enabled="false" 
+    	android:selectable="false"
+    	android:persistent="false"
+    	android:shouldDisableView="false"/>
+        
+    </PreferenceCategory>
+</PreferenceScreen>
